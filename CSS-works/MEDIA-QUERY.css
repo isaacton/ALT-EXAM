@@ -1,0 +1,52 @@
+/* for mobile devices
+320px - 480px */
+
+
+/* for ipad, tablets devices
+481px - 768px */
+
+/* for small screen, laptops  devices
+769px - 1024px */
+
+/* for desktop or large screen laptops
+1025px - 1200px */
+
+
+.box{
+    width: 100%;
+    height: 400px;
+    background-color: steelblue;
+    border-radius: 20px;
+}
+/* for mobile devices
+320px - 480px */
+@media (min-width: 320px) and (max-width: 480px) {
+    .box{
+        background-color: green;
+    }
+}
+
+
+/* for ipad, tablets devices
+481px - 768px */
+@media (min-width: 481px) and (max-width: 768px) {
+    .box{
+        background-color: blue;
+    }
+}
+
+
+/* for small screen laptops
+769px - 1024px */
+@media (min-width: 769px) and (max-width: 1024px) {
+    .box{
+        background-color: purple;
+    }
+}
+/* for desktop and large screen  laptops
+1025px - 1200px */
+@media (min-width: 1025px) and (max-width: 1200px) {
+    .box{
+        background-color: slategray;
+    }
+}

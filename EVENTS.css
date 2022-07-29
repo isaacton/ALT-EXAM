@@ -1,0 +1,28 @@
+:root{
+    --background--: green;
+    --color--: blue;
+}
+button{
+    background-color: var(--background--);
+    color: var(--color--);
+    padding: 10px 20px;
+    border-radius: 8px;
+}
+
+input:invalid{
+    Animation: shake 300ms;
+}
+
+@keyframes shake{
+    25%{
+        transform: translateX(4px);
+    }
+    50%{
+        transform: translateX(-4px);
+    }
+    75%{
+        transform: translateX(4px);
+    }
+}
+
+ 

@@ -1,0 +1,4 @@
+function displayWelcome(){
+    alert("yay");
+}
+
